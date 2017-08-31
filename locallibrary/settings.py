@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '5dcbmrsdoc!yr@jii9aikyxcec89^3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['beiklocallibrary.herokuapp.com']
+ALLOWED_HOSTS = ['beiklocallibrary.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
